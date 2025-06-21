@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+    <a href="product.html">
+        <img src="images/bed.jpg" style="width: 300px; height: 200px;">
+        <p>BED</p>
+    </a></div>
+    <div class="column">
+    <a href="product.html">
+        <img src="images/wardrobe.jpg" style="width: 300px; height: 200px;">
+        <p>WARDROBE</p>
+    </a></div>
+    <div class="column">
+    <a href="product.html">
+        <img src="images/table.jpg" style="width: 300px; height: 200px;">
+        <p>STUDY TABLE</p>
+    </a></div>
+    <div  class="column">
+    <a href="product.html">
+        <img src="images/dressing.jpg" style="width: 300px;height: 200px;">
+        <p>DRESSING TABLE</p>
+    </a></div>
+    </div>
+</body>
+</html>
